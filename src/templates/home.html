@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='script/apple.js') }}"></script>
+
+    <title>Plant Disease Detector</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="home" style="width: 150px;">Home</a>
+            <a href="contact" style="width: 150px;">Contact Us</a>
+            <a href="/" style="width: 150px;">Log out</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="card" style="height: 150px; width: 3000px;">
+            <div class="box">
+                <h1 style="color: aliceblue; text-align: center;">Plant Disease Detector</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container" >
+        <div class="card" style="height: 500px;">
+            <div class="box">
+                <div class="content">
+                    <h2>01</h2>
+                    <h3>Apple</h3>
+                    <img src="https://usapple.org/wp-content/uploads/2019/10/apple-pink-lady.png" style="height: 150px;">
+                    <p>There are over 2500 apple varieties and they are 25% made up of air</p>
+                    <br>
+                    <a href="apple">Predict Disease</a>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="container">
+        <div class="card" style="height: 500px;">
+            <div class="box">
+                <div class="content">
+                    <h2>02</h2>
+                    <h3>Potato</h3>
+                    <img src="https://www.pngall.com/wp-content/uploads/2016/04/Potato-Free-Download-PNG.png" style="height: 150px;">
+                    <p>When you buy them, potatoes are still alive. It is still living when you harvest it, albeit in a dormant state</p>
+                    <a href="potato">Predict Disease</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="card" style="height: 500px;">
+            <div class="box">
+                <div class="content">
+                    <h2>03</h2>
+                    <h3>Strawberry</h3>
+                    <img src="https://www.freeiconspng.com/thumbs/strawberry-png/strawberry-png-16.png" style="height: 150px;">
+                    <p>Technically berries have seeds on the inside. So strawberries are really in a group all their own.</p>
+                    <a href="strawberry">Predict Disease</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
